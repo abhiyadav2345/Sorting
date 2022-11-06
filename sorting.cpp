@@ -431,4 +431,109 @@ int main(){
 
         //---------------------------------------------------Selection Sort end-------------------------------------------------
 
+        //---------------------------------------------------Merge Sort-------------------------------------------------
+    case 3:
+        //------------------------------------Size of Array 50000-------------------------------------------
+        cout << "Size of Array : 50000" << endl;
+        cout << "Best, Average and Worst Case for Merge sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 50000);
+        t = clock();
+        mergeSort(arr, 0,50000);
+        t = clock() - t;
+        cout << "time taken for best case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 50000);
+        t = clock();
+        mergeSort(arr,0, 50000);
+        t = clock() - t;
+        cout << "time taken for Average case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 50000);
+        t = clock();
+        mergeSort(arr,0,50000);
+        t = clock() - t;
+        cout << "time taken for Worst case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        //------------------------------------------------------- Size of Array 25000-------------------------------
+        cout << "\nSize of Array : 25000" << endl;
+        cout << "Best, Average and Worst Case for Merge sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 25000);
+        t = clock();
+        mergeSort(arr, 0,25000);
+        t = clock() - t;
+        cout << "time taken for best case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 25000);
+        t = clock();
+        mergeSort(arr,0, 25000);
+        t = clock() - t;
+        cout << "time taken for Average case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 25000);
+        t = clock();
+        mergeSort(arr,0, 25000);
+        t = clock() - t;
+        cout << "time taken for Worst case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        //------------------------------------------------------- Size of Array 10000-------------------------------
+        cout << "\nSize of Array : 10000" << endl;
+        cout << "Best, Average and Worst Case for Merge sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 10000);
+        t = clock();
+        mergeSort(arr, 0,10000);
+        t = clock() - t;
+        cout << "time taken for best case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 10000);
+        t = clock();
+        mergeSort(arr,0, 10000);
+        t = clock() - t;
+        cout << "time taken for Average case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 10000);
+        t = clock();
+        mergeSort(arr,0, 10000);
+        t = clock() - t;
+        cout << "time taken for Worst case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        //------------------------------------------------------- Size of Array 5000-------------------------------
+        cout << "\nSize of Array : 5000" << endl;
+        cout << "Best, Average and Worst Case for Merge sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 5000);
+        t = clock();
+        mergeSort(arr,0, 5000);
+        t = clock() - t;
+        cout << "time taken for best case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 5000);
+        t = clock();
+        mergeSort(arr,0, 5000);
+        t = clock() - t;
+        cout << "time taken for Average case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr,5000);
+        t = clock();
+        mergeSort(arr,0, 5000);
+        t = clock() - t;
+        cout << "time taken for Worst case in Merge sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        break;
+        //---------------------------------------------------Merge Sort End-------------------------------------------------
+
 }
