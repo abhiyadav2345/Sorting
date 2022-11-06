@@ -208,4 +208,16 @@ swap(arr[j], arr[j + 1]);
 
 int main(){
 
+    clock_t t;
+
+    int len, opt;
+    cout << "-----------------------------Array Sorting-----------------------------\n";
+
+    int arr[50000];
+
+    cout << "****************************SELECT FROM OPTION.****************************\n";
+    cout << "1. Insertion Sort\n2. Selection Sort\n3. Merge Sort\n4.Radix Sort\n5. Bubble Sort\nEnter 1/2/3/4/5: ";
+
+    cin >> opt;
+
 }
