@@ -220,4 +220,110 @@ int main(){
 
     cin >> opt;
 
+    switch (opt)
+    {
+        //-----------------------------------------------------Insertion Sort--------------------------------
+    case 1:
+        //------------------------------------Size of Array 50000-------------------------------------------
+        cout << "Size of Array : 50000" << endl;
+        cout << "Best, Average and Worst Case for insertion sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 50000);
+        t = clock();
+        insertsort(arr, 50000);
+        t = clock() - t;
+        cout << "time taken for best case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 50000);
+        t = clock();
+        insertsort(arr, 50000);
+        t = clock() - t;
+        cout << "time taken for Average case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 50000);
+        t = clock();
+        insertsort(arr, 50000);
+        t = clock() - t;
+        cout << "time taken for Worst case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        //------------------------------------------------------- Size of Array 25000-------------------------------
+        cout << "\nSize of Array : 25000" << endl;
+        cout << "Best, Average and Worst Case for insertion sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 25000);
+        t = clock();
+        insertsort(arr, 25000);
+        t = clock() - t;
+        cout << "time taken for best case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 25000);
+        t = clock();
+        insertsort(arr, 25000);
+        t = clock() - t;
+        cout << "time taken for Average case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 25000);
+        t = clock();
+        insertsort(arr, 25000);
+        t = clock() - t;
+        cout << "time taken for Worst case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        //------------------------------------------------ Size of Array 10000---------------------------------------
+        cout << "\nSize of Array : 10000" << endl;
+        cout << "Best, Average and Worst Case for insertion sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 10000);
+        t = clock();
+        insertsort(arr, 10000);
+        t = clock() - t;
+        cout << "time taken for best case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 10000);
+        t = clock();
+        insertsort(arr, 10000);
+        t = clock() - t;
+        cout << "time taken for Average case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 10000);
+        t = clock();
+        insertsort(arr, 10000);
+        t = clock() - t;
+        cout << "time taken for Worst case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        // ---------------------------------------------------Size of Array 5000-----------------------------------------
+        cout << "\nSize of Array : 5000" << endl;
+        cout << "Best, Average and Worst Case for insertion sort" << endl;
+
+        /* Best Case*/
+        bestCase(arr, 5000);
+        t = clock();
+        insertsort(arr, 5000);
+        t = clock() - t;
+        cout << "time taken for best case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Average*/
+        averageCase(arr, 5000);
+        t = clock();
+        insertsort(arr, 5000);
+        t = clock() - t;
+        cout << "time taken for Average case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        /* Worst */
+        worstCase(arr, 5000);
+        t = clock();
+        insertsort(arr, 5000);
+        t = clock() - t;
+        cout << "time taken for Worst case in insertion sort: " << (float)t / CLOCKS_PER_SEC << endl;
+
+        break;
+
 }
