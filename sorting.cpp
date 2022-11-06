@@ -64,6 +64,24 @@ void insertsort(int *arr, int len)
 
 //---------------------------------------------------Insertion Sort End-------------------------------------------------
 
+
+//---------------------------------------------------Selection Sort-------------------------------------------------
+/* Algo
+
+*/
+void selectionSort(int *array, int size) {
+   int i, j, imin;
+   for(i = 0; i<size-1; i++) {
+      imin = i;   
+      for(j = i+1; j<size; j++)
+         if(array[j] < array[imin])
+            imin = j;
+    swap(array[i], array[imin]);
+   }
+}
+
+//---------------------------------------------------Selection Sort End-------------------------------------------------
+
 int main(){
 
 }
