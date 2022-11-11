@@ -61,19 +61,7 @@ void writeToFile(vector<vector<int>> &matrixC, unsigned int mSize)
     outputFile.close();
 }
 
-/* print a matrix to the console
-void printMatrix(vector<vector<int>> &matrix, unsigned int mSize)
-{
-    for (int i = 0; i < mSize; i++)
-    {
-        for (int j = 0; j < mSize; j++)
-        {
-            cout << matrix[i][j] << " ";
-        }
-        cout << endl;
-    }
-    cout << endl;
-}*/
+
 
 // recursive strassen matrix multiplier
 void strassenR(vector<vector<int>> &matrixA,
@@ -293,7 +281,7 @@ int main()
         vector<int> rowVector(matrixSize);
         
 
-        // Initialize the matrices
+        
 
         /* Print their values
         std::cout << "Matrix A:\n";
@@ -361,8 +349,8 @@ j++;
              << "MATRIX C = A * B" << endl;
         printMatrix(matrixC, matrixSize);
 
-        // write matrix product to output file
-        writeToFile(matrixC, matrixSize);*/
+        */ //write matrix product to output file
+        writeToFile(matrixC, matrixSize);
    i++; }
     return 0;
 }
