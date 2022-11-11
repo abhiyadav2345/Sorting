@@ -144,6 +144,18 @@ void mergeSort(int *arr, int left, int right)
 
 //---------------------------------------------------Radix Sort-------------------------------------------------
 /* Algo
+RadixSort(a[], n):
+    // Finding the maximum element
+    max=a[0]
+    For (i=1 to n-1):
+        If (a[i]>max):
+            max=a[i]
+            
+    // Calling countingSort for 
+    // k times using For loop.
+    For (div=1 to max/div>0):
+        countingSort(a, n, div)
+        div=div*10
 
 */
 // A utility function to get maximum value in arr[]
